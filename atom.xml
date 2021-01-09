@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title> - Articles</title>
+    <description>학습 정리 블로그</description>
+    <link>
+    https://koo9nine.github.io</link>
+    
+      
+      <item>
+        <title>TensorFlow2 기본</title>
+        
+          <description>&lt;p&gt;이 글은 Tenworflow2 기본 내용입니다.&lt;/p&gt;
+</description>
+        
+        <pubDate>Tue, 29 Dec 2020 00:00:00 +0900</pubDate>
+        <link>
+        https://koo9nine.github.io/tensorflow2-basic</link>
+        <guid isPermaLink="true">https://koo9nine.github.io/tensorflow2-basic</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>python-control-statement</title>
+        
+          <description>&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Python 강좌는 여러 절로 구성되어 있습니다. &lt;/span&gt;&lt;/p&gt;
+&lt;ul class=&quot;table-of-contents-list&quot;&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic&quot;&gt;Python 기본&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-control-statement&quot;&gt;Python 제어문&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        
+        <pubDate>Tue, 29 Dec 2020 00:00:00 +0900</pubDate>
+        <link>
+        https://koo9nine.github.io/python-control-statement</link>
+        <guid isPermaLink="true">https://koo9nine.github.io/python-control-statement</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Python 기본</title>
+        
+          <description>&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Python 강좌는 여러 절로 구성되어 있습니다. &lt;/span&gt;&lt;/p&gt;
+&lt;ul class=&quot;table-of-contents-list&quot;&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic&quot;&gt;Python 기본&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-control-statement&quot;&gt;Python 제어문&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        
+        <pubDate>Tue, 29 Dec 2020 00:00:00 +0900</pubDate>
+        <link>
+        https://koo9nine.github.io/python-basic</link>
+        <guid isPermaLink="true">https://koo9nine.github.io/python-basic</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Object Detection 기본</title>
+        
+          <description>&lt;p&gt;이 글은 object detection 기본 내용입니다.&lt;/p&gt;
+</description>
+        
+        <pubDate>Tue, 29 Dec 2020 00:00:00 +0900</pubDate>
+        <link>
+        https://koo9nine.github.io/objectdetection-basic</link>
+        <guid isPermaLink="true">https://koo9nine.github.io/objectdetection-basic</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Welcome to Ghost</title>
+        
+          <description>&lt;p&gt;Hey! Welcome to Ghost, it’s great to have you :)&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Thu, 27 Jul 2017 19:00:00 +0900</pubDate>
+        <link>
+        https://koo9nine.github.io/welcome</link>
+        <guid isPermaLink="true">https://koo9nine.github.io/welcome</guid>
+      </item>
+      
+    
+  </channel>
+</rss>
