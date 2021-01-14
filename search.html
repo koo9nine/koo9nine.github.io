@@ -11,7 +11,7 @@
 
 
 
-    <title>Getting Started - Deeplearning Object Detection Study</title>
+    <title>Search Result</title>
     <meta name="HandheldFriendly" content="True" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- Styles'n'Scripts -->
@@ -49,19 +49,19 @@
     <!-- This tag outputs SEO meta+structured data and other important settings -->
     <meta name="description" content="학습 정리 블로그" />
     <link rel="shortcut icon" href="https://koo9nine.github.io/assets/built/images/favicon.png" type="image/png" />
-    <link rel="canonical" href="https://koo9nine.github.io/tag/getting-started/" />
+    <link rel="canonical" href="https://koo9nine.github.io/search" />
     <meta name="referrer" content="no-referrer-when-downgrade" />
 
      <!--title below is coming from _includes/dynamic_title-->
     <meta property="og:site_name" content="Deeplearning Object Detection Study" />
     <meta property="og:type" content="website" />
-    <meta property="og:title" content="Getting Started - Deeplearning Object Detection Study" />
+    <meta property="og:title" content="Search Result" />
     <meta property="og:description" content="학습 정리 블로그" />
-    <meta property="og:url" content="https://koo9nine.github.io/tag/getting-started/" />
+    <meta property="og:url" content="https://koo9nine.github.io/search" />
     <meta property="og:image" content="https://koo9nine.github.io/assets/built/images/blog-cover1.jpg" />
     <meta property="article:publisher" content="https://www.facebook.com/" />
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Getting Started - Deeplearning Object Detection Study" />
+    <meta name="twitter:title" content="Search Result" />
     <meta name="twitter:description" content="학습 정리 블로그" />
     <meta name="twitter:url" content="https://koo9nine.github.io/" />
     <meta name="twitter:image" content="https://koo9nine.github.io/assets/built/images/blog-cover1.jpg" />
@@ -81,7 +81,7 @@
         "name": "Deeplearning Object Detection Study",
         "logo": "https://koo9nine.github.io/"
     },
-    "url": "https://koo9nine.github.io/tag/getting-started/",
+    "url": "https://koo9nine.github.io/search",
     "image": {
         "@type": "ImageObject",
         "url": "https://koo9nine.github.io/assets/built/images/blog-cover1.jpg",
@@ -90,7 +90,7 @@
     },
     "mainEntityOfPage": {
         "@type": "WebPage",
-        "@id": "https://koo9nine.github.io/tag/getting-started/"
+        "@id": "https://koo9nine.github.io/search"
     },
     "description": "학습 정리 블로그"
 }
@@ -105,24 +105,20 @@
     </script> -->
 
     <meta name="generator" content="Jekyll 3.6.2" />
-    <link rel="alternate" type="application/rss+xml" title="Tag Page" href="/feed.xml" />
+    <link rel="alternate" type="application/rss+xml" title="Search Result" href="/feed.xml" />
 
 
 </head>
-<body class="tag-template">
+<body class="page-template">
 
     <div class="site-wrapper">
         <!-- All the main content gets inserted here, index.hbs, post.hbs, etc -->
-        <!-- default -->
-<!-- The tag above means - insert everything in this file into the {body} of the default.hbs template -->
+        <!-- < default -->
+<!-- The tag above means: insert everything in this file
+into the {body} of the default.hbs template -->
 
 <!-- The big featured header, it uses blog cover image as a BG if available -->
-<!-- #tag -->
-<!-- dynamically loading backgrounds for tags,  descriptions and page titles -->
-
-
-
-<header class="site-header outer no-cover">
+<header class="site-header outer">
     <div class="inner">
         <nav class="site-nav">
     <div class="site-nav-left">
@@ -154,71 +150,100 @@
     </div>
 </nav>
 
-        <div class="site-header-content">
-            <h1 class="site-title">Getting Started</h1>
-            <h2 class="site-description">
-                
-    			    A collection of 1 posts
-                
-            </h2>
-        </div>
     </div>
 </header>
-<!-- tag -->
 
-<!-- The main content area -->
+<!-- Everything inside the #post tags pulls data from the post -->
+<!-- #post -->
+
 <main id="site-main" class="site-main outer" role="main">
     <div class="inner">
-        <div class="post-feed">
-            <!-- The tag below includes the markup for each post - partials/post-card.hbs -->
+
+        <article class="post-full  post page no-image">
+
+            <header class="post-full-header">
+                <h1 class="post-full-title">Search Result</h1>
+            </header>
+
             
 
+            <section class="post-full-content">
+                <form action="/search" method="get" hidden="hidden">
+    <label for="search-box"></label>
+    <input type="text" id="search-box" name="query">
+</form>
 
-    <article class="post-card tag-template">
-        
-            <a class="post-card-image-link" href="/welcome">
-                <div class="post-card-image" style="background-image: url(/assets/images/welcome.jpg)"></div>
-            </a>
-        
-        <div class="post-card-content">
-            <a class="post-card-content-link" href="/welcome">
-                <header class="post-card-header">
-                    
-                        
-                            
-                                <span class="post-card-tags">Getting started</span>
-                            
-                        
-                    
+<ul class="mylist" id="search-results"></ul>
 
-                    <h2 class="post-card-title">Welcome to Ghost</h2>
-                </header>
-                <section class="post-card-excerpt">
-                    
-                        <p>Hey! Welcome to Ghost, it’s great to have you :)
+<script>
+    window.store = {
+    
+    "tensorflow2-basic": {
+        "title": "TensorFlow2 기본",
+            "author": "koo9nine",
+            "category": "",
+            "content": "이 글은 Tenworflow2 기본 내용입니다.",
+        "url": "/tensorflow2-basic"
+    }
+    , 
+    
+    "python-control-statement": {
+        "title": "python-control-statement",
+            "author": "koo9nine",
+            "category": "",
+            "content": "Python 강좌는 여러 절로 구성되어 있습니다.     Python 기본    Python 제어문이 글은 python의 제어문에 대한 내용을 담고 있습니다.",
+        "url": "/python-control-statement"
+    }
+    , 
+    
+    "python-basic": {
+        "title": "Python 기본",
+            "author": "koo9nine",
+            "category": "",
+            "content": "Python 강좌는 여러 절로 구성되어 있습니다.     Python 기본    Python 제어문이 글은 python 기본 내용입니다.function syntaxHighlight(code) {   var foo = 'Hello World';   var bar = 100;}",
+        "url": "/python-basic"
+    }
+    , 
+    
+    "objectdetection-basic": {
+        "title": "Object Detection 기본",
+            "author": "koo9nine",
+            "category": "",
+            "content": "이 글은 object detection 기본 내용입니다.",
+        "url": "/objectdetection-basic"
+    }
+    , 
+    
+    "welcome": {
+        "title": "Welcome to Ghost",
+            "author": "ghost",
+            "category": "",
+            "content": "Hey! Welcome to Ghost, it’s great to have you :)We know that first impressions are important, so we’ve populated your new site with some initial Getting Started posts that will help you get familiar with everything in no time. This is the first one!There are a few things that you should know up-front:  Ghost is designed for ambitious, professional publishers who want to actively build a business around their content. That’s who it works best for. If you’re using Ghost for some other purpose, that’s fine too - but it might not be the best choice for you.  The entire platform can be modified and customized to suit your needs, which is very powerful, but doing so does require some knowledge of code. Ghost is not necessarily a good platform for beginners or people who just want a simple personal blog.  For the best experience we recommend downloading the Ghost Desktop App for your computer, which is the best way to access your Ghost site on a desktop device.Ghost is made by an independent non-profit organisation called the Ghost Foundation. We are 100% self funded by revenue from our Ghost(Pro) service, and every penny we make is re-invested into funding further development of free, open source technology for modern journalism.The main thing you’ll want to read about next is probably: the Ghost editor.Once you’re done reading, you can simply delete the default Ghost user from your team to remove all of these introductory posts!",
+        "url": "/welcome"
+    }
+    
+    
+    };
+</script>
+<script src="assets/js/lunr.js"></script>
+<script src="assets/js/search.js"></script>
+            </section>
 
-</p>
-                    
-                </section>
-            </a>
-            <footer class="post-card-meta">
-                
-                    
-                
-                <span class="reading-time">
-                    
-                    
-                      1 min read
-                    
-                </span>
-            </footer>
-        </div>
-    </article>
+        </article>
 
-
-        </div>
     </div>
 </main>
+
+<!-- /post -->
+
+<!-- The #contentFor helper here will send everything inside it up to the matching #block helper found in default.hbs -->
+<script>
+$(function() {
+    var $postContent = $(".post-full-content");
+    $postContent.fitVids();
+});
+</script>
+
 
 
         <!-- Previous/next page links - displayed on every page -->
@@ -294,7 +319,7 @@
     <!-- Paginator increased to "infinit" in _config.yml -->
     <!-- if paginator.posts  -->
     <!-- <script>
-        var maxPages = parseInt('1');
+        var maxPages = parseInt('');
     </script>
     <script src="/assets/js/infinitescroll.js"></script> -->
     <!-- /endif -->
@@ -317,6 +342,14 @@
 
 
     <!-- The #block helper will pull in data from the #contentFor other template files. In this case, there's some JavaScript which we only want to use in post.hbs, but it needs to be included down here, after jQuery has already loaded. -->
+    
+        <script>
+$(function() {
+    var $postContent = $(".post-full-content");
+    $postContent.fitVids();
+});
+</script>
+
     
 
     <!-- Ghost outputs important scripts and data with this tag - it should always be the very last thing before the closing body tag -->
