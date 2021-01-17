@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://koo9nine.github.io/sitemap.xml
